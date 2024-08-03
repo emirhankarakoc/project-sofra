@@ -38,7 +38,7 @@ This project was inspired by a friend's idea. Although permission was granted to
 - **Database**: SQL (for handling distance queries)
 
 ## Installation
-` # Clone the repository
+``` # Clone the repository
 git clone https://github.com/your-repo/project-sofra.git
 
 # Navigate to the frontend directory
@@ -57,7 +57,7 @@ cd ../backend
 mvn install
 
 # Start the backend server
-mvn spring-boot:run `
+mvn spring-boot:run ```
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request to help improve the project.
