@@ -7,34 +7,35 @@
 - **User Interaction**: Both buyers and sellers of food items are part of the platform, with real-time data updates.
 ## Screenshots
 ### Map View
-
+![image](https://github.com/user-attachments/assets/5d89c407-ec8d-4029-9e3c-069c2931004f)
 
 ### Product Page
-![image](https://github.com/user-attachments/assets/e823119d-edfd-44f5-9456-1f2a3afe418c)
+![image](https://github.com/user-attachments/assets/70810452-47c8-4813-99c1-70ef3c1cc220)
 
 ### My Profile Page
-![image](https://github.com/user-attachments/assets/021cb749-b9ca-47c6-9343-1412a08fa351)
+![image](https://github.com/user-attachments/assets/4f8aa42b-3c4a-42dd-bfde-1e3272375b0e)
 
 ### Add Balance from Credit Card Page
-![image](https://github.com/user-attachments/assets/99c57706-3963-4a46-99c6-9574b4afe353)
+![image](https://github.com/user-attachments/assets/ad04771e-303d-4648-b54e-d593d0e3d285)
 
 ### Add Product Page
+![image](https://github.com/user-attachments/assets/fea8b499-c302-4278-abea-1065069a2913)
 
 
 
 Authentication Screens
-![Uploading image.png…]()
-
+![image](https://github.com/user-attachments/assets/39ec6332-8647-4211-a967-5d067b0eee2f)
+![image](https://github.com/user-attachments/assets/eb44f7b9-3851-44f6-bd2e-6e4be1d871ae)
 
 
 ## Overview
 This project was inspired by a friend's idea. Although permission was granted to use the concept, it wasn't developed into a full application. The idea remains a concept for a platform where users can both buy and sell food based on their proximity, leveraging Google Maps for location accuracy and visualization.
 
 ## Tech Stack
-- Frontend: React (with Bootstrap for styling)
-- Backend: Spring Boot
-- API Integration: Google Maps API
-- Database: SQL (for handling distance queries)
+- **Frontend**: React (with Bootstrap for styling)
+- **Backend**: Spring Boot
+- **API Integration**: Google Maps API
+- **Database**: SQL (for handling distance queries)
 
 ## Installation
 `# Clone the repository
