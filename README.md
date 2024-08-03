@@ -2,9 +2,9 @@
 **Project Sofra** is a location-based platform designed to help you find affordable meals when restaurants are closed and your budget is tight. By inputting a distance in meters, you can send your location to the backend using Google Maps API. The backend then performs a `BETWEEN` query on the database to list products that are within the specified distance from your location.
 
 ## Key Features
-- Proximity-Based Search: Only displays food options within the specified distance from your current location.
-- Google Maps Integration: Visualize nearby food options on the map with markers indicating available meals.
-- User Interaction: Both buyers and sellers of food items are part of the platform, with real-time data updates.
+- **Proximity-Based Search**: Only displays food options within the specified distance from your current location.
+- **Google Maps Integration**: Visualize nearby food options on the map with markers indicating available meals.
+- **User Interaction**: Both buyers and sellers of food items are part of the platform, with real-time data updates.
 ## Screenshots
 ### Map View
 
