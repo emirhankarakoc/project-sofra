@@ -2,8 +2,6 @@
 
 Sofra is a food marketplace idea. The Spring Boot API can search food ads by location and distance. The React app has product pages with links to Google Maps and Apple Maps.
 
-This is the original Sofra project. It is separate from my car maintenance recommendation tool.
-
 ## What is in the code
 
 - Buyer and seller accounts
@@ -29,4 +27,3 @@ npm install
 npm start
 ```
 
-This project started from a friend's idea and is shared with permission.
