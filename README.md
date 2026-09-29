@@ -1,64 +1,35 @@
-# Project Sofra
-**Project Sofra** is a location-based platform designed to help you find affordable meals when restaurants are closed and your budget is tight. By inputting a distance in meters, you can send your location to the backend using Google Maps API. The backend then performs a `BETWEEN` query on the database to list products that are within the specified distance from your location.
+# Project Sofra — Nearby Food Marketplace Prototype
 
-## Key Features
-- **Proximity-Based Search**: Only displays food options within the specified distance from your current location.
-- **Google Maps Integration**: Visualize nearby food options on the map with markers indicating available meals.
-- **User Interaction**: Both buyers and sellers of food items are part of the platform, with real-time data updates.
-## Screenshots
-### Map View
-![image](https://github.com/user-attachments/assets/5d89c407-ec8d-4029-9e3c-069c2931004f)
+A location-based food marketplace concept. A Spring Boot backend accepts a location and distance, queries nearby products, and serves data to a React interface with a Google Maps view.
 
-### Product Page
-![image](https://github.com/user-attachments/assets/70810452-47c8-4813-99c1-70ef3c1cc220)
+**This is the food marketplace project from 2024. It is separate from my dealership maintenance recommendation work.**
 
-### My Profile Page
-![image](https://github.com/user-attachments/assets/4f8aa42b-3c4a-42dd-bfde-1e3272375b0e)
+## Features
+- Buyer and seller account flows
+- Product listings and proximity filtering
+- Map markers for nearby items
+- Product and profile screens
 
-### Add Balance from Credit Card Page
-![image](https://github.com/user-attachments/assets/ad04771e-303d-4648-b54e-d593d0e3d285)
+## Stack and layout
+- `backend/` — Java, Spring Boot, SQL persistence
+- `frontend/` — React and Bootstrap
+- Google Maps integration in the client
 
-### Add Product Page
-![image](https://github.com/user-attachments/assets/fea8b499-c302-4278-abea-1065069a2913)
+## Run locally
+Install Java, Maven, Node.js, and a database matching the backend configuration. Supply your own database and third-party API configuration. From the repository root:
 
+```bash
+cd backend
+mvn spring-boot:run
+```
 
+In another terminal:
 
-Authentication Screens
-![image](https://github.com/user-attachments/assets/39ec6332-8647-4211-a967-5d067b0eee2f)
-![image](https://github.com/user-attachments/assets/eb44f7b9-3851-44f6-bd2e-6e4be1d871ae)
-
-
-## Overview
-This project was inspired by a friend's idea. Although permission was granted to use the concept, it wasn't developed into a full application. The idea remains a concept for a platform where users can both buy and sell food based on their proximity, leveraging Google Maps for location accuracy and visualization.
-
-## Tech Stack
-- **Frontend**: React (with Bootstrap for styling)
-- **Backend**: Spring Boot
-- **API Integration**: Google Maps API
-- **Database**: SQL (for handling distance queries)
-
-## Installation
-``` # Clone the repository
-git clone https://github.com/your-repo/project-sofra.git
-
-# Navigate to the frontend directory
-cd project-sofra/frontend
-
-# Install dependencies
+```bash
+cd frontend
 npm install
-
-# Start the frontend server
 npm start
+```
 
-# Navigate to the backend directory
-cd ../backend
-
-# Install dependencies
-mvn install
-
-# Start the backend server
-mvn spring-boot:run ```
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request to help improve the project.
-
+## Status
+This is a prototype based on a friend's concept, shared with permission. The repository does not represent a launched marketplace, completed payment integration, or the newer dealership project. Review the API and frontend code for implemented behavior.
