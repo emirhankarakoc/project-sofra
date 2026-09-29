@@ -29,4 +29,4 @@ npm install
 npm start
 ```
 
-This is a prototype based on a friend's idea, shared with permission. It is not a launched marketplace and does not have a finished payment flow.
+This project started from a friend's idea and is shared with permission.
