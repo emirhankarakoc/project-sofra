@@ -14,7 +14,7 @@ The backend is in `backend/`; the React app is in `frontend/`.
 
 ## Run locally
 
-You need Java, Maven, Node.js, a database that matches the backend settings, and your own Google Maps configuration.
+You need Java, Maven, Node.js, MySQL, and your own Google Maps setup. Set `DB_URL`, `DB_USERNAME`, `DB_PASSWORD`, and `JWT_SECRET` for the backend. Image uploads also need `CLOUDINARY_CLOUD_NAME`, `CLOUDINARY_API_KEY`, and `CLOUDINARY_API_SECRET`.
 
 ```bash
 cd backend
