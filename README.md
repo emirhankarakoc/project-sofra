@@ -1,22 +1,20 @@
-# Project Sofra — Nearby Food Marketplace Prototype
+# Sofra: Nearby Food Marketplace
 
-A location-based food marketplace concept. A Spring Boot backend accepts a location and distance, queries nearby products, and serves data to a React interface with a Google Maps view.
+Sofra is a food marketplace idea. A buyer gives a location and distance. The Spring Boot API finds nearby products, and the React app shows them on a Google Map.
 
-**This is the food marketplace project from 2024. It is separate from my dealership maintenance recommendation work.**
+This is the original Sofra project. It is separate from my car maintenance recommendation tool.
 
-## Features
-- Buyer and seller account flows
-- Product listings and proximity filtering
-- Map markers for nearby items
-- Product and profile screens
+## What is in the code
 
-## Stack and layout
-- `backend/` — Java, Spring Boot, SQL persistence
-- `frontend/` — React and Bootstrap
-- Google Maps integration in the client
+- Buyer and seller accounts
+- Product listings and nearby search
+- Map markers and product screens
+
+The backend is in `backend/`; the React app is in `frontend/`.
 
 ## Run locally
-Install Java, Maven, Node.js, and a database matching the backend configuration. Supply your own database and third-party API configuration. From the repository root:
+
+You need Java, Maven, Node.js, a database that matches the backend settings, and your own Google Maps configuration.
 
 ```bash
 cd backend
@@ -31,5 +29,4 @@ npm install
 npm start
 ```
 
-## Status
-This is a prototype based on a friend's concept, shared with permission. The repository does not represent a launched marketplace, completed payment integration, or the newer dealership project. Review the API and frontend code for implemented behavior.
+This is a prototype based on a friend's idea, shared with permission. It is not a launched marketplace and does not have a finished payment flow.
