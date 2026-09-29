@@ -1,6 +1,6 @@
 # Sofra: Nearby Food Marketplace
 
-Sofra is a food marketplace idea. The Spring Boot API can search food ads by location and distance. The React app has product pages with links to Google Maps and Apple Maps.
+Sofra is a food marketplace idea. The Spring Boot API can search food ads by location and distance. The React app has product pages with links to Google Maps.
 
 ## What is in the code
 
